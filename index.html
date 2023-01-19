@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="SEEclim is an app for view de weather of cityes">
+    <meta name="robots" content="index, follow">
+
+    <link rel="stylesheet" href="./src/css/normalize.css">
+    <link rel="stylesheet" href="./src/css/root.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <title>SEEclim</title>
+</head>
+<body>
+    <header>
+        <label class="searchContent" for="searchCity">
+            <input class="searchInput" type="text" id="searchCity">
+            <img class="searchImg" id="iconSearch" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/768px-Search_Icon.svg.png" alt="search">
+            <ul class="searchList" id="suggestionsList"></ul>
+        </label>
+    </header>
+
+    <main>
+        <section class="current" id="currentContent">
+
+        </section>
+        <section class="hourly" id="hourlyContent">
+
+        </section>
+        <section class="daily" id="dailyContent">
+
+        </section>
+    </main>
+
+    <script src="./src/script/index.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+/*/////////////////////////////////////////HEAD Search Container/////////////////////////////////////////////*/
+.searchContent {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchList {
+    position: absolute;
+    top: 2rem;
+}
+
+.searchImg {
+    width: 2rem;
+}
+
+/*////////////////////////////////////////MAIN Current Content///////////////////////////////////////////////*/
+.current {
+    display: grid;
+    grid-template-areas: 
+        'cTemp cInfo'
+        'cOthers cOthers';
+
+}
+
+.current__temp {
+    grid-area: cTemp;
+}
+
+.current__info {
+    grid-area: cInfo;
+}
+
+.current__others {
+    grid-area: cOthers;
+}
+
+/*/////////////////////////////////////////MAIN Hourly Content///////////////////////////////////////////////*/
+.hourly {
+    display: flex;
+    overflow: scroll;
+}
+
+/*//////////////////////////////////////////MAIN Daily Content///////////////////////////////////////////////*/
+.daily__info {
+    display: flex;
+}
+
+.daily__extra {
+    display: flex;
+    justify-content: space-around;
+}

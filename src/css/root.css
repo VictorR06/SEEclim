@@ -1,0 +1,18 @@
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --transparent: #052535;
+    --transparent-second: #103040;
+    --back: #012030;
+    --text-color: whitesmoke;
+}
+
+.inactive {
+    display: none;
+}
+
+body {
+    background-color: #ccc;
+}
