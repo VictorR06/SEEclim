@@ -27,17 +27,18 @@ hourlyTemplate.innerHTML = `
     <img>
     <h2></h2>
     <span>
-      <h3>POP</h3><h3></h3>
+      <h3>POP</h3><h4></h4>
     </span>
 </div>
 `
 
 const dailyTemplate = document.createElement('template')
 dailyTemplate.innerHTML = `
-<h3 class='daily__time' id='dTime'></h3>
-<div class='daily__info'>
+<div>
+<div id='elementInfo' class='daily__info'>
     <img>
     <div id='dTemp'>
+        <h3 class='daily__time' id='dTime'></h3>
         <span>
           <h2></h2>
           <h2></h2>
@@ -45,7 +46,7 @@ dailyTemplate.innerHTML = `
         <p></p>
     </div>
 </div>
-<div class='daily__extra'>
+<div id='elementOthers' class='daily__extra inactive'>
     <ul id='d1Others'>
         <li><h3>POP</h3><p></p></li>
         <li><h3>Sunrise</h3><p></p></li>
@@ -58,6 +59,7 @@ dailyTemplate.innerHTML = `
         <li><h3>Eve</h3><p></p></li>
         <li><h3>Night</h3><p></p></li>
     </ul>
+</div>
 </div>
 `
 

@@ -1,0 +1,11 @@
+body {
+    margin: 2rem 4rem;
+}
+
+.daily > div {
+    max-width: 410px;
+}
+
+.daily__info {
+    max-width: 410px;
+}

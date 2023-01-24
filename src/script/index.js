@@ -18,6 +18,7 @@ searchCity.addEventListener('keyup', (event) => {
 
             const suggestion = document.createElement('li')
             suggestion.innerHTML = `${city}, ${country}`
+
             suggestion.addEventListener('click', () => {
               const suggestionCity = suggestion.textContent
               searchCity.value = suggestionCity

@@ -3,16 +3,12 @@ html {
 }
 
 :root {
-    --transparent: #052535;
-    --transparent-second: #103040;
-    --back: #012030;
-    --text-color: whitesmoke;
-}
-
-.inactive {
-    display: none;
+    --primary-color: #0288D1;
+    --secondary-color: #03A9F4;
+    --text-color-second: whitesmoke;
+    --opacity: #c6c6c6;
 }
 
 body {
-    background-color: #ccc;
+    background-color: var(--primary-color);
 }

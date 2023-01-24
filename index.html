@@ -11,13 +11,14 @@
     <link rel="stylesheet" href="./src/css/normalize.css">
     <link rel="stylesheet" href="./src/css/root.css">
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/tablet.css" media="screen and (min-width: 480px)">
 
     <title>SEEclim</title>
 </head>
 <body>
     <header>
         <label class="searchContent" for="searchCity">
-            <input class="searchInput" type="text" id="searchCity">
+            <input class="searchInput" type="text" id="searchCity" placeholder="search city">
             <img class="searchImg" id="iconSearch" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/768px-Search_Icon.svg.png" alt="search">
             <ul class="searchList" id="suggestionsList"></ul>
         </label>
@@ -27,10 +28,12 @@
         <section class="current" id="currentContent">
 
         </section>
+        <h2>Next 24 hours</h2>
         <section class="hourly" id="hourlyContent">
 
         </section>
         <section class="daily" id="dailyContent">
+            <h2>Next 7 days</h2>
 
         </section>
     </main>
